@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=TX_BIT_0 Pin=U1-8
+Removed Pin From Net: NetName=RX_BIT_1 Pin=U1-9
+Added Pin To Net: NetName=RX_BIT_1 Pin=U1-8
+Added Pin To Net: NetName=TX_BIT_0 Pin=U1-9
+Change Net Name : Old Net Name=RX_BIT_1 New Net Name=TX_BIT_1
+Change Net Name : Old Net Name=TX_BIT_0 New Net Name=RX_BIT_0

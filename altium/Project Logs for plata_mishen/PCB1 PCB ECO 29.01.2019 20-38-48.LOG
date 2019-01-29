@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=LED_out Pin=*2-0
+Added Component: Designator=Q1(SOT23)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R3(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3V Pin=Q1-2
+Added Pin To Net: NetName=LED_out Pin=R3-2
+Added Pin To Net: NetName=Net*2_0 Pin=*2-0
+Added Pin To Net: NetName=Net*2_0 Pin=Q1-3
+Added Net: Name=Net*2_0
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R3-1
+Added Net: Name=NetQ1_1
+Added Member To Class: ClassName=mishen Member=Component Q1 TRANSISTOR
+Added Member To Class: ClassName=mishen Member=Component R3 10K

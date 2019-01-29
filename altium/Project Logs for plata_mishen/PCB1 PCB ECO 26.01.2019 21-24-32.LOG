@@ -1,0 +1,16 @@
+Change Component Designator: OldDesignator=R1 NewDesignator=R2
+Added Component: Designator=*1(pin)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R1(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Sens_IN Pin=*1-0
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=Sens_IN Pin=R1-2
+Change Net Name : Old Net Name=NetR1_2 New Net Name=NetR2_2
+Added Member To Class: ClassName=mishen Member=Component *1 pin
+Added Member To Class: ClassName=mishen Member=Component R2 10K
+Added Room: Name=mishen

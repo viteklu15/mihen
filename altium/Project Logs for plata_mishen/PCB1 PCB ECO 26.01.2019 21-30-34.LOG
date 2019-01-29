@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=SWCLK Pin=P2-2
+Removed Pin From Net: NetName=SWDIO Pin=P2-3
+Added Pin To Net: NetName=SWDIO Pin=P2-2
+Added Pin To Net: NetName=SWCLK Pin=P2-3
+Added Member To Class: ClassName=mishen Member=Component R1 1m
