@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=TX Pin=U3-10
+Removed Pin From Net: NetName=RX Pin=U3-11
+Added Pin To Net: NetName=NetR4_1 Pin=U3-10
+Added Net: Name=NetR4_1
+Added Pin To Net: NetName=NetR5_1 Pin=U3-11
+Added Net: Name=NetR5_1
+Added Member To Class: ClassName=mishen Member=Component R1 (R2) 10K
