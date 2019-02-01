@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=GND Pin=R4-2
+Added Member To Class: ClassName=mishen Member=Component R2 (R3) 10K
+Added Member To Class: ClassName=mishen Member=Component U1 (U2) STM32F030F4P6
