@@ -1,0 +1,168 @@
+Removed Pin From Net: NetName=NetP1_DRV2_0 Pin=P1_DRV2-0
+Removed Pin From Net: NetName=NetP1_DRV3_0 Pin=P1_DRV3-0
+Removed Pin From Net: NetName=NetP1_DRV4_0 Pin=P1_DRV4-0
+Removed Pin From Net: NetName=NetP1_DRV5_0 Pin=P1_DRV5-0
+Removed Pin From Net: NetName=NetP1_DRV6_0 Pin=P1_DRV6-0
+Removed Pin From Net: NetName=NetP1_DRV7_0 Pin=P1_DRV7-0
+Removed Pin From Net: NetName=NetP1_DRV8_0 Pin=P1_DRV8-0
+Removed Pin From Net: NetName=NetQ1_DRV1_1 Pin=Q1_DRV1-1
+Removed Pin From Net: NetName=GND Pin=Q1_DRV2-2
+Removed Pin From Net: NetName=NetP1_DRV2_0 Pin=Q1_DRV2-3
+Removed Pin From Net: NetName=NetQ1_DRV3_1 Pin=Q1_DRV3-1
+Removed Pin From Net: NetName=NetP1_DRV3_0 Pin=Q1_DRV3-3
+Removed Pin From Net: NetName=NetQ1_DRV4_1 Pin=Q1_DRV4-1
+Removed Pin From Net: NetName=GND Pin=Q1_DRV4-2
+Removed Pin From Net: NetName=NetP1_DRV4_0 Pin=Q1_DRV4-3
+Removed Pin From Net: NetName=NetQ1_DRV5_1 Pin=Q1_DRV5-1
+Removed Pin From Net: NetName=GND Pin=Q1_DRV5-2
+Removed Pin From Net: NetName=NetP1_DRV5_0 Pin=Q1_DRV5-3
+Removed Pin From Net: NetName=NetQ1_DRV6_1 Pin=Q1_DRV6-1
+Removed Pin From Net: NetName=GND Pin=Q1_DRV6-2
+Removed Pin From Net: NetName=NetP1_DRV6_0 Pin=Q1_DRV6-3
+Removed Pin From Net: NetName=NetQ1_DRV7_1 Pin=Q1_DRV7-1
+Removed Pin From Net: NetName=GND Pin=Q1_DRV7-2
+Removed Pin From Net: NetName=NetP1_DRV7_0 Pin=Q1_DRV7-3
+Removed Pin From Net: NetName=NetQ1_DRV8_1 Pin=Q1_DRV8-1
+Removed Pin From Net: NetName=GND Pin=Q1_DRV8-2
+Removed Pin From Net: NetName=NetP1_DRV8_0 Pin=Q1_DRV8-3
+Removed Pin From Net: NetName=NetQ1_DRV1_1 Pin=R1_DRV1-1
+Removed Pin From Net: NetName=out1 Pin=R1_DRV1-2
+Removed Pin From Net: NetName=NetQ1_DRV2_1 Pin=R1_DRV2-1
+Removed Pin From Net: NetName=NetQ1_DRV3_1 Pin=R1_DRV3-1
+Removed Pin From Net: NetName=NetQ1_DRV4_1 Pin=R1_DRV4-1
+Removed Pin From Net: NetName=NetQ1_DRV5_1 Pin=R1_DRV5-1
+Removed Pin From Net: NetName=NetQ1_DRV6_1 Pin=R1_DRV6-1
+Removed Pin From Net: NetName=NetQ1_DRV7_1 Pin=R1_DRV7-1
+Removed Pin From Net: NetName=NetQ1_DRV8_1 Pin=R1_DRV8-1
+Removed Pin From Net: NetName=NetQ1_DRV1_1 Pin=R2_DRV1-1
+Removed Pin From Net: NetName=GND Pin=R2_DRV1-2
+Removed Pin From Net: NetName=NetQ1_DRV2_1 Pin=R2_DRV2-1
+Removed Pin From Net: NetName=GND Pin=R2_DRV2-2
+Removed Pin From Net: NetName=NetQ1_DRV3_1 Pin=R2_DRV3-1
+Removed Pin From Net: NetName=GND Pin=R2_DRV3-2
+Removed Pin From Net: NetName=NetQ1_DRV4_1 Pin=R2_DRV4-1
+Removed Pin From Net: NetName=GND Pin=R2_DRV4-2
+Removed Pin From Net: NetName=NetQ1_DRV5_1 Pin=R2_DRV5-1
+Removed Pin From Net: NetName=GND Pin=R2_DRV5-2
+Removed Pin From Net: NetName=NetQ1_DRV6_1 Pin=R2_DRV6-1
+Removed Pin From Net: NetName=GND Pin=R2_DRV6-2
+Removed Pin From Net: NetName=NetQ1_DRV7_1 Pin=R2_DRV7-1
+Removed Pin From Net: NetName=GND Pin=R2_DRV7-2
+Removed Pin From Net: NetName=NetQ1_DRV8_1 Pin=R2_DRV8-1
+Removed Pin From Net: NetName=GND Pin=R2_DRV8-2
+Removed Pin From Net: NetName=out1 Pin=U1-15
+Change Component Footprint: Designator=Q1_DRV4 Old Footprint=AO-SOT23-3_V New Footprint=D0016A_M
+Change Component Footprint: Designator=Q1_DRV2 Old Footprint=AO-SOT23-3_V New Footprint=RESC2013X70X40ML20T20
+Change Component Footprint: Designator=Q1_DRV3 Old Footprint=AO-SOT23-3_V New Footprint=RESC2013X70X40ML20T20
+Change Component Comment : Designator=Q1_DRV2 Old Comment=AO3400 New Comment=1K
+Change Component Comment : Designator=Q1_DRV3 Old Comment=AO3400 New Comment=10K
+Change Component Comment : Designator=Q1_DRV4 Old Comment=AO3400 New Comment=ULN2003ADR
+Change Component Designator: OldDesignator=P1_DRV1 NewDesignator=P1
+Change Component Designator: OldDesignator=P1_DRV2 NewDesignator=P10
+Change Component Designator: OldDesignator=P1_DRV3 NewDesignator=P4
+Change Component Designator: OldDesignator=P1_DRV4 NewDesignator=P5
+Change Component Designator: OldDesignator=P1_DRV5 NewDesignator=P6
+Change Component Designator: OldDesignator=P1_DRV6 NewDesignator=P7
+Change Component Designator: OldDesignator=P1_DRV7 NewDesignator=P8
+Change Component Designator: OldDesignator=P1_DRV8 NewDesignator=P9
+Change Component Designator: OldDesignator=Q1_DRV1 NewDesignator=Q1
+Change Component Designator: OldDesignator=Q1_DRV2 NewDesignator=R1
+Change Component Designator: OldDesignator=Q1_DRV3 NewDesignator=R2
+Change Component Designator: OldDesignator=Q1_DRV4 NewDesignator=U2
+Change component parameters: Designator = "R1"; Footprint = "RESC2013X70X40ML20T20"; UniqueID = "\HCHMPTAW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2"; Footprint = "RESC2013X70X40ML20T20"; UniqueID = "\UQFXWEGE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U2"; Footprint = "D0016A_M"; UniqueID = "\NRLXJGCD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Category"; Value = "DarlingtonBJT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Configuration"; Value = "Array7"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=uln2003a&fileType=pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "Rev. O, 01/2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "TexasInstruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Maximum Collector Emitter Saturation Voltage"; Value = "1.1@100mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Maximum Collector Emitter Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "16SOIC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Description"; Value = "16-Pin Plastic Small Outline, Body 9.9 x 3.9 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Reference"; Value = "D16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package URL"; Value = "http://www.ti.com/lit/ml/mpds178g/mpds178g.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Version"; Value = "4040047-6/M, 06/2011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape&Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Peak DC Collector Current"; Value = "0.5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rad Hard"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "NPN"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=out1 Pin=P4-0
+Added Pin To Net: NetName=NetQ1_DRV8_1 Pin=P5-0
+Added Pin To Net: NetName=NetQ1_DRV7_1 Pin=P6-0
+Added Pin To Net: NetName=NetQ1_DRV6_1 Pin=P7-0
+Added Pin To Net: NetName=NetQ1_DRV5_1 Pin=P8-0
+Added Pin To Net: NetName=NetQ1_DRV4_1 Pin=P9-0
+Added Pin To Net: NetName=NetQ1_DRV3_1 Pin=P10-0
+Added Pin To Net: NetName=NetQ1_DRV2_1 Pin=Q1-1
+Added Pin To Net: NetName=NetP1_DRV2_0 Pin=R1-2
+Added Pin To Net: NetName=NetQ1_DRV2_1 Pin=R2-1
+Added Pin To Net: NetName=NetQ1_DRV1_1 Pin=U1-1
+Added Pin To Net: NetName=NetP1_DRV8_0 Pin=U1-2
+Added Pin To Net: NetName=NetP1_DRV7_0 Pin=U1-3
+Added Pin To Net: NetName=NetP1_DRV6_0 Pin=U1-4
+Added Pin To Net: NetName=NetP1_DRV5_0 Pin=U1-5
+Added Pin To Net: NetName=NetP1_DRV4_0 Pin=U1-6
+Added Pin To Net: NetName=NetP1_DRV2_0 Pin=U1-7
+Added Pin To Net: NetName=NetP1_DRV3_0 Pin=U1-15
+Added Pin To Net: NetName=NetP1_DRV3_0 Pin=U2-1
+Added Pin To Net: NetName=NetQ1_DRV1_1 Pin=U2-2
+Added Pin To Net: NetName=NetP1_DRV8_0 Pin=U2-3
+Added Pin To Net: NetName=NetP1_DRV7_0 Pin=U2-4
+Added Pin To Net: NetName=NetP1_DRV6_0 Pin=U2-5
+Added Pin To Net: NetName=NetP1_DRV5_0 Pin=U2-6
+Added Pin To Net: NetName=NetP1_DRV4_0 Pin=U2-7
+Added Pin To Net: NetName=GND Pin=U2-8
+Added Pin To Net: NetName=+5V Pin=U2-9
+Added Pin To Net: NetName=NetQ1_DRV3_1 Pin=U2-10
+Added Pin To Net: NetName=NetQ1_DRV4_1 Pin=U2-11
+Added Pin To Net: NetName=NetQ1_DRV5_1 Pin=U2-12
+Added Pin To Net: NetName=NetQ1_DRV6_1 Pin=U2-13
+Added Pin To Net: NetName=NetQ1_DRV7_1 Pin=U2-14
+Added Pin To Net: NetName=NetQ1_DRV8_1 Pin=U2-15
+Added Pin To Net: NetName=out1 Pin=U2-16
+Change Net Name : Old Net Name=NetP1_DRV1_0 New Net Name=NetP1_0
+Change Net Name : Old Net Name=NetP1_DRV2_0 New Net Name=Out_8
+Change Net Name : Old Net Name=NetP1_DRV3_0 New Net Name=NetU1_15
+Change Net Name : Old Net Name=NetP1_DRV4_0 New Net Name=NetU1_6
+Change Net Name : Old Net Name=NetP1_DRV5_0 New Net Name=NetU1_5
+Change Net Name : Old Net Name=NetP1_DRV6_0 New Net Name=NetU1_4
+Change Net Name : Old Net Name=NetP1_DRV7_0 New Net Name=NetU1_3
+Change Net Name : Old Net Name=NetP1_DRV8_0 New Net Name=NetU1_2
+Change Net Name : Old Net Name=NetQ1_DRV1_1 New Net Name=NetU1_1
+Change Net Name : Old Net Name=NetQ1_DRV2_1 New Net Name=NetQ1_1
+Change Net Name : Old Net Name=NetQ1_DRV3_1 New Net Name=NetP10_0
+Change Net Name : Old Net Name=NetQ1_DRV4_1 New Net Name=NetP9_0
+Change Net Name : Old Net Name=NetQ1_DRV5_1 New Net Name=NetP8_0
+Change Net Name : Old Net Name=NetQ1_DRV6_1 New Net Name=NetP7_0
+Change Net Name : Old Net Name=NetQ1_DRV7_1 New Net Name=NetP6_0
+Change Net Name : Old Net Name=NetQ1_DRV8_1 New Net Name=NetP5_0
+Change Net Name : Old Net Name=out1 New Net Name=NetP4_0
+Added Member To Class: ClassName=display Member=Component P1 pin
+Added Member To Class: ClassName=display Member=Component P4 pin
+Added Member To Class: ClassName=display Member=Component P5 pin
+Added Member To Class: ClassName=display Member=Component P6 pin
+Added Member To Class: ClassName=display Member=Component P7 pin
+Added Member To Class: ClassName=display Member=Component P8 pin
+Added Member To Class: ClassName=display Member=Component P9 pin
+Added Member To Class: ClassName=display Member=Component P10 pin
+Added Member To Class: ClassName=display Member=Component Q1 AO3400
+Added Member To Class: ClassName=display Member=Component R1 1K
+Added Member To Class: ClassName=display Member=Component R2 10K
+Added Member To Class: ClassName=display Member=Component U2 ULN2003ADR
+Change Room Name: Old Name=DRV6 New Name=display
+Change Room Scope: Old Scope=InComponentClass('DRV6') New Scope=InComponentClass('display')

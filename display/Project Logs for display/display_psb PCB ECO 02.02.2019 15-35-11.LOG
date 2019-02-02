@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=NetU1_1 Pin=U1-1
+Removed Pin From Net: NetName=NetU1_2 Pin=U1-2
+Removed Pin From Net: NetName=NetU1_5 Pin=U1-5
+Removed Pin From Net: NetName=NetU1_6 Pin=U1-6
+Removed Pin From Net: NetName=NetU1_15 Pin=U2-1
+Removed Pin From Net: NetName=NetU1_1 Pin=U2-2
+Removed Pin From Net: NetName=NetU1_2 Pin=U2-3
+Removed Pin From Net: NetName=NetU1_4 Pin=U2-5
+Removed Pin From Net: NetName=NetU1_5 Pin=U2-6
+Removed Pin From Net: NetName=NetU1_6 Pin=U2-7
+Added Pin To Net: NetName=NetU1_6 Pin=U1-1
+Added Pin To Net: NetName=NetU1_5 Pin=U1-2
+Added Pin To Net: NetName=NetU1_2 Pin=U1-5
+Added Pin To Net: NetName=NetU1_1 Pin=U1-6
+Added Pin To Net: NetName=NetU1_1 Pin=U2-1
+Added Pin To Net: NetName=NetU1_2 Pin=U2-2
+Added Pin To Net: NetName=NetU1_4 Pin=U2-3
+Added Pin To Net: NetName=NetU1_5 Pin=U2-5
+Added Pin To Net: NetName=NetU1_6 Pin=U2-6
+Added Pin To Net: NetName=NetU1_15 Pin=U2-7
+Change Net Name : Old Net Name=NetU1_1 New Net Name=Out_6
+Change Net Name : Old Net Name=NetU1_2 New Net Name=Out_5
+Change Net Name : Old Net Name=NetU1_3 New Net Name=Out_3
+Change Net Name : Old Net Name=NetU1_4 New Net Name=Out_4
+Change Net Name : Old Net Name=NetU1_5 New Net Name=Out_2
+Change Net Name : Old Net Name=NetU1_6 New Net Name=Out_1
+Change Net Name : Old Net Name=NetU1_15 New Net Name=Out_0
+Change Net Name : Old Net Name=Out_8 New Net Name=Out_7
+Added Room: Name=display
