@@ -101,27 +101,31 @@ void tamin_5sec()
   if (PowerOn)
   {
 
-    if (millis() - tamer_5sec > 1000 & sec < 5)
+    if (((millis() - tamer_5sec) > 1000) & (sec < 5))
     {
       tamer_5sec = millis();
       sec++;
+      if (sec == 5){
       PowerOn1 = true;
       PowerOn2 = true;
       PowerOn3 = true;
       PowerOn4 = true;
       PowerOn5 = true;
+      }
 
       Serial.println(sec);
     }
   }
   else
   {
-    sec = 0;
+    if(sec == 5){
     PowerOn1 = false;
     PowerOn2 = false;
     PowerOn3 = false;
     PowerOn4 = false;
     PowerOn5 = false;
+    
+  }sec = 0;
   }
 }
 
@@ -198,6 +202,7 @@ void HTTP_handleRoot(void)
     </head>\
     <body>\
       <h1>Интерактивная мишень 1.0</h1>\n";
+ 
 
   if (stat)
   {
@@ -213,73 +218,94 @@ void HTTP_handleRoot(void)
       <a href=\"/?stat=1\">Включить</a><h2>\
       ";
   }
+
+  out += " <h2>мишень 1: Заряд = ";
+  out += 12;
+  out += " %   ";
+
   if (stat1)
   {
     out += "\
-      <h2>мишень 1: Включено</br>\
+       Включено</br>\
       <a href=\"/?stat1=0\">OFF</a></h2>\
       ";
   }
   else
   {
     out += "\
-      <h2>мишень 1: Выключено</br>\
+       Выключено</br>\
       <a href=\"/?stat1=1\">ON</a><h2>\
       ";
   }
+  
+  out += " <h2>мишень 2: Заряд = ";
+  out += 12;
+  out += " %   ";
+  
   if (stat2)
   {
     out += "\
-      <h2>мишень 2: Включено</br>\
+       Включено</br>\
       <a href=\"/?stat2=0\">OFF</a></h2>\
       ";
   }
   else
   {
     out += "\
-      <h2>мишень 2: Выключено</br>\
+       Выключено</br>\
       <a href=\"/?stat2=1\">ON</a><h2>\
       ";
   }
+
+  out += " <h2>мишень 3: Заряд = ";
+  out += 12;
+  out += " %   ";
   if (stat3)
   {
     out += "\
-      <h2>мишень 3: Включено</br>\
+       Включено</br>\
       <a href=\"/?stat3=0\">OFF</a></h2>\
       ";
   }
   else
   {
     out += "\
-      <h2>мишень 3: Выключено</br>\
+       Выключено</br>\
       <a href=\"/?stat3=1\">ON</a><h2>\
       ";
   }
+
+  out += " <h2>мишень 4: Заряд = ";
+  out += 12;
+  out += " %   ";
   if (stat4)
   {
     out += "\
-      <h2>мишень 4: Включено</br>\
+       Включено</br>\
       <a href=\"/?stat4=0\">OFF</a></h2>\
       ";
   }
   else
   {
     out += "\
-      <h2>мишень 4: Выключено</br>\
+       Выключено</br>\
       <a href=\"/?stat4=1\">ON</a><h2>\
       ";
   }
+  out += " <h2>мишень 5: Заряд = ";
+  out += 12;
+  out += " %   ";
   if (stat5)
   {
     out += "\
-      <h2>мишень 5: Включено</br>\
+       Включено</br>\
       <a href=\"/?stat5=0\">OFF</a></h2>\
       ";
   }
   else
   {
     out += "\
-      <h2>мишень 5: Выключено</br>\
+       Выключено</br>\
       <a href=\"/?stat5=1\">ON</a><h2>\
       ";
   }
@@ -428,7 +454,7 @@ void loop()
 }
 */
 
-  while (Serial.available())
+  while (Serial.available()) // проверяем команды которые пришли с com порта
   {
     char inChar = Serial.read();
     riad_serial += inChar;
