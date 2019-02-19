@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=+3.3V Pin=Q1-2
+Removed Pin From Net: NetName=Net*2_0 Pin=Q1-3
+Removed Pin From Net: NetName=+3.3V Pin=U3-4
+Change Component Comment : Designator=C1 Old Comment=100nF New Comment=0.2uf
+Added Pin To Net: NetName=+5V Pin=Q1-2
+Added Room: Name=mishen
