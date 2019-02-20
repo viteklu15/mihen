@@ -46,6 +46,7 @@ bool PowerOn, PowerOn1, PowerOn2, PowerOn3, PowerOn4, PowerOn5 = false;
 String riad_serial = "";
 String buf = "";
 int mih1_sens, mih2_sens, mih3_sens, mih4_sens, mih5_sens = 0;
+int zaryad_1, zaryad_2, zaryad_3, zaryad_4, zaryad_5;
 long tamer_5sec, tamer_10mil;
 int sec, milisek = 0;
 int max_udar = 500;
@@ -105,12 +106,13 @@ void tamin_5sec()
     {
       tamer_5sec = millis();
       sec++;
-      if (sec == 5){
-      PowerOn1 = true;
-      PowerOn2 = true;
-      PowerOn3 = true;
-      PowerOn4 = true;
-      PowerOn5 = true;
+      if (sec == 5)
+      {
+        PowerOn1 = true;
+        PowerOn2 = true;
+        PowerOn3 = true;
+        PowerOn4 = true;
+        PowerOn5 = true;
       }
 
       Serial.println(sec);
@@ -118,14 +120,15 @@ void tamin_5sec()
   }
   else
   {
-    if(sec == 5){
-    PowerOn1 = false;
-    PowerOn2 = false;
-    PowerOn3 = false;
-    PowerOn4 = false;
-    PowerOn5 = false;
-    
-  }sec = 0;
+    if (sec == 5)
+    {
+      PowerOn1 = false;
+      PowerOn2 = false;
+      PowerOn3 = false;
+      PowerOn4 = false;
+      PowerOn5 = false;
+    }
+    sec = 0;
   }
 }
 
@@ -202,7 +205,6 @@ void HTTP_handleRoot(void)
     </head>\
     <body>\
       <h1>Интерактивная мишень 1.0</h1>\n";
- 
 
   if (stat)
   {
@@ -219,96 +221,92 @@ void HTTP_handleRoot(void)
       ";
   }
 
-  out += " <h2>мишень 1: Заряд = ";
-  out += 12;
-  out += " %   ";
-
   if (stat1)
   {
     out += "\
-       Включено</br>\
+      <h2>мишень 1 1 </br>\
       <a href=\"/?stat1=0\">OFF</a></h2>\
       ";
   }
   else
   {
     out += "\
-       Выключено</br>\
+       <h2>мишень 1 0 </br>\
       <a href=\"/?stat1=1\">ON</a><h2>\
       ";
   }
-  
-  out += " <h2>мишень 2: Заряд = ";
-  out += 12;
-  out += " %   ";
-  
+
   if (stat2)
   {
     out += "\
-       Включено</br>\
+       <h2>мишень 2 0 </br>\
       <a href=\"/?stat2=0\">OFF</a></h2>\
       ";
   }
   else
   {
     out += "\
-       Выключено</br>\
+       <h2>мишень 2 0</br>\
       <a href=\"/?stat2=1\">ON</a><h2>\
       ";
   }
 
-  out += " <h2>мишень 3: Заряд = ";
-  out += 12;
-  out += " %   ";
   if (stat3)
   {
     out += "\
-       Включено</br>\
+       <h2>мишень 3 1 </br>\
       <a href=\"/?stat3=0\">OFF</a></h2>\
       ";
   }
   else
   {
     out += "\
-       Выключено</br>\
+       <h2>мишень 3 0 </br>\
       <a href=\"/?stat3=1\">ON</a><h2>\
       ";
   }
 
-  out += " <h2>мишень 4: Заряд = ";
-  out += 12;
-  out += " %   ";
   if (stat4)
   {
     out += "\
-       Включено</br>\
+       <h2>мишень 4 1 </br>\
       <a href=\"/?stat4=0\">OFF</a></h2>\
       ";
   }
   else
   {
     out += "\
-       Выключено</br>\
+       <h2>мишень 4 0 </br>\
       <a href=\"/?stat4=1\">ON</a><h2>\
       ";
   }
-  out += " <h2>мишень 5: Заряд = ";
-  out += 12;
-  out += " %   ";
+
   if (stat5)
   {
     out += "\
-       Включено</br>\
+       <h2>мишень 5 1 </br>\
       <a href=\"/?stat5=0\">OFF</a></h2>\
       ";
   }
   else
   {
     out += "\
-       Выключено</br>\
-      <a href=\"/?stat5=1\">ON</a><h2>\
+       <h2>мишень 5 0 </br>\
+      <a href=\"/?stat5=1\">ON</a><h2></br> \
       ";
   }
+
+  out +=              "<h2>мишень 1: Заряд =  ";
+  out += zaryad_1;
+  out += "\% <h2></br> <h2>мишень 2: Заряд =  ";
+  out += zaryad_2;  
+  out += "\% <h2></br> <h2>мишень 3: Заряд =  ";
+  out += zaryad_3; 
+  out += "\% <h2></br> <h2>мишень 4: Заряд =  ";
+  out += zaryad_4;  
+  out += "\% <h2></br> <h2>мишень 5: Заряд =  ";
+  out += zaryad_5;
+  out += " %  </br>";
 
   out += "\
     </body>\
