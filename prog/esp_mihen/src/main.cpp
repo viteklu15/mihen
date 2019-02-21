@@ -204,7 +204,7 @@ void HTTP_handleRoot(void)
       </style>\
     </head>\
     <body>\
-      <h1>Интерактивная мишень 1.0</h1>\n";
+      <h1>Интерактивная Mишень  1.0</h1>\n";
 
   if (stat)
   {
@@ -239,7 +239,7 @@ void HTTP_handleRoot(void)
   if (stat2)
   {
     out += "\
-       <h2>мишень 2 0 </br>\
+       <h2>мишень 2 1 </br>\
       <a href=\"/?stat2=0\">OFF</a></h2>\
       ";
   }
@@ -292,19 +292,19 @@ void HTTP_handleRoot(void)
   {
     out += "\
        <h2>мишень 5 0 </br>\
-      <a href=\"/?stat5=1\">ON</a><h2></br> \
+      <a href=\"/?stat5=1\">ON</a><h2> \
       ";
   }
 
-  out +=              "<h2>мишень 1: Заряд =  ";
+  out +=              "<h2>мишень_1: Заряд =  ";
   out += zaryad_1;
-  out += "\% <h2></br> <h2>мишень 2: Заряд =  ";
+  out += " % </h2><h2>мишень_2: Заряд =  ";
   out += zaryad_2;  
-  out += "\% <h2></br> <h2>мишень 3: Заряд =  ";
+  out += " %  </h2><h2>мишень_3: Заряд =  ";
   out += zaryad_3; 
-  out += "\% <h2></br> <h2>мишень 4: Заряд =  ";
+  out += " %  </h2><h2>мишень_4: Заряд =  ";
   out += zaryad_4;  
-  out += "\% <h2></br> <h2>мишень 5: Заряд =  ";
+  out += " %</h2><h2>мишень_5: Заряд =  ";
   out += zaryad_5;
   out += " %  </br>";
 
@@ -433,24 +433,7 @@ void setup(void)
 }
 void loop()
 {
-  /*
-    WiFiClient client;
- 
-  if (client.connect(ip_1, 80))
-    {
-    client.print( "GET /get.php?");
-    client.print("test=1");    
-    client.println( " HTTP/1.1");
-    client.print( "Host:" );
-    //client.println(ip_1);
-    client.println( "Connection: close" );
-        client.println();
-        client.println();
-
-   delay(10000); 
-
-}
-*/
+  
 
   while (Serial.available()) // проверяем команды которые пришли с com порта
   {
@@ -489,6 +472,36 @@ void loop()
         String Voltage = riad_serial.substring(2);
         Voltage.trim();
         mih5_sens = Voltage.toInt();
+      }
+      if (riad_serial.indexOf("Z1") != -1)  // проверяем заряд 
+      {
+        String Voltage = riad_serial.substring(2);
+        Voltage.trim();
+        zaryad_1 = Voltage.toInt();
+      }
+      if (riad_serial.indexOf("Z2") != -1)  // проверяем заряд 
+      {
+        String Voltage = riad_serial.substring(2);
+        Voltage.trim();
+        zaryad_2 = Voltage.toInt();
+      }
+      if (riad_serial.indexOf("Z3") != -1)  // проверяем заряд 
+      {
+        String Voltage = riad_serial.substring(2);
+        Voltage.trim();
+        zaryad_3 = Voltage.toInt();
+      }
+      if (riad_serial.indexOf("Z4") != -1)  // проверяем заряд 
+      {
+        String Voltage = riad_serial.substring(2);
+        Voltage.trim();
+        zaryad_4 = Voltage.toInt();
+      }
+      if (riad_serial.indexOf("Z5") != -1)  // проверяем заряд 
+      {
+        String Voltage = riad_serial.substring(2);
+        Voltage.trim();
+        zaryad_5 = Voltage.toInt();
       }
       proveryaem_mish();
       riad_serial = "";
