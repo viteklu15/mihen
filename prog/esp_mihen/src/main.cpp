@@ -47,8 +47,9 @@ String riad_serial = "";
 String buf = "";
 int mih1_sens, mih2_sens, mih3_sens, mih4_sens, mih5_sens = 0;
 int zaryad_1, zaryad_2, zaryad_3, zaryad_4, zaryad_5;
+int milisek, sec, sec1, sec2, minut, comand = 0;
+int d_1, d_2, d_3, d_4, tohki = 10;
 long tamer_5sec, tamer_10mil;
-int sec, milisek = 0;
 int max_udar = 500;
 void proveryaem_mish()
 {
@@ -84,11 +85,27 @@ void zapusk_tamera_10mil()
   {
     if (millis() - tamer_10mil > 100)
     {
-
-      tamer_10mil = millis();
-      milisek++;
-
-      Serial.println(milisek);
+      if (PowerOn)
+      {
+        tamer_10mil = millis();
+        milisek++;
+        sec1 = milisek / 10;
+        sec2 = sec1 % 60;
+        minut = sec1 / 60;
+        d_4 = milisek % 10;
+        d_3 = sec1 % 10;
+        d_2 = sec2 / 10;
+        d_1 = minut % 10;
+        // displey(d_1, d_2, d_3, d_4);
+        if (sec1 > 598)
+        {
+          PowerOn = false;
+        }
+        Serial.print(d_1);
+        Serial.print(d_2);
+        Serial.print(d_3);
+        Serial.println(d_4);
+      }
     }
   }
   else
@@ -296,18 +313,22 @@ void HTTP_handleRoot(void)
       ";
   }
 
-  out +=              "<h2>мишень_1: Заряд =  ";
-  out += zaryad_1;
-  out += " % </h2><h2>мишень_2: Заряд =  ";
-  out += zaryad_2;  
-  out += " %  </h2><h2>мишень_3: Заряд =  ";
-  out += zaryad_3; 
-  out += " %  </h2><h2>мишень_4: Заряд =  ";
-  out += zaryad_4;  
-  out += " %</h2><h2>мишень_5: Заряд =  ";
-  out += zaryad_5;
-  out += " %  </br>";
-
+  out += "<h2>мишень_1: Заряд =  ";
+  out += 10; //zaryad_1;
+  out += "%   ; </h2><h2>мишень_2: Заряд =  ";
+  out += 5; //zaryad_2;
+  out += "%   ;  </h2><h2>мишень_3: Заряд =  ";
+  out += 45; //zaryad_3;
+  out += "%   ;  </h2><h2>мишень_4: Заряд =  ";
+  out += 100; //zaryad_4;
+  out += "%   ;</h2><h2>мишень_5: Заряд =  ";
+  out += 99; //zaryad_5;
+  out += "%   ;</h2> Время : ";
+   out += d_1;
+   out += d_2;
+   out += d_3;
+   out += d_4;
+  out += "  ;</h2> </br>";
   out += "\
     </body>\
   </html>";
@@ -433,7 +454,6 @@ void setup(void)
 }
 void loop()
 {
-  
 
   while (Serial.available()) // проверяем команды которые пришли с com порта
   {
@@ -473,31 +493,31 @@ void loop()
         Voltage.trim();
         mih5_sens = Voltage.toInt();
       }
-      if (riad_serial.indexOf("Z1") != -1)  // проверяем заряд 
+      if (riad_serial.indexOf("Z1") != -1) // проверяем заряд
       {
         String Voltage = riad_serial.substring(2);
         Voltage.trim();
         zaryad_1 = Voltage.toInt();
       }
-      if (riad_serial.indexOf("Z2") != -1)  // проверяем заряд 
+      if (riad_serial.indexOf("Z2") != -1) // проверяем заряд
       {
         String Voltage = riad_serial.substring(2);
         Voltage.trim();
         zaryad_2 = Voltage.toInt();
       }
-      if (riad_serial.indexOf("Z3") != -1)  // проверяем заряд 
+      if (riad_serial.indexOf("Z3") != -1) // проверяем заряд
       {
         String Voltage = riad_serial.substring(2);
         Voltage.trim();
         zaryad_3 = Voltage.toInt();
       }
-      if (riad_serial.indexOf("Z4") != -1)  // проверяем заряд 
+      if (riad_serial.indexOf("Z4") != -1) // проверяем заряд
       {
         String Voltage = riad_serial.substring(2);
         Voltage.trim();
         zaryad_4 = Voltage.toInt();
       }
-      if (riad_serial.indexOf("Z5") != -1)  // проверяем заряд 
+      if (riad_serial.indexOf("Z5") != -1) // проверяем заряд
       {
         String Voltage = riad_serial.substring(2);
         Voltage.trim();

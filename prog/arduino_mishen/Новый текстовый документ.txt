@@ -1,0 +1,2 @@
+https://github.com/rocketscream/Low-Power/blob/master/Examples/powerDownWakeExternalInterrupt/powerDownWakeExternalInterrupt.ino
+https://radio-blogs.ru/blog/arduino/arduino-na-atmega8-atmega48-atmega88-atmega168
