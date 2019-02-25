@@ -141,38 +141,42 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for plata_mishen\NC Drill\PCB1-Plated.TXT
+DocumentPath=Project Outputs for plata_mishen\Design Rule Check - PCB1.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for plata_mishen\NC Drill\PCB1.DRR
+DocumentPath=Project Outputs for plata_mishen\NC Drill\PCB1-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for plata_mishen\Gerber\PCB1.EXTREP
+DocumentPath=Project Outputs for plata_mishen\NC Drill\PCB1.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for plata_mishen\Gerber\PCB1.GBL
+DocumentPath=Project Outputs for plata_mishen\Gerber\PCB1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for plata_mishen\Gerber\PCB1.GM6
+DocumentPath=Project Outputs for plata_mishen\Gerber\PCB1.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for plata_mishen\Gerber\PCB1.GTL
+DocumentPath=Project Outputs for plata_mishen\Gerber\PCB1.GM6
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for plata_mishen\NC Drill\PCB1.LDP
+DocumentPath=Project Outputs for plata_mishen\Gerber\PCB1.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for plata_mishen\Gerber\PCB1.REP
+DocumentPath=Project Outputs for plata_mishen\NC Drill\PCB1.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
+DocumentPath=Project Outputs for plata_mishen\Gerber\PCB1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument10]
 DocumentPath=Project Outputs for plata_mishen\Gerber\PCB1.RUL
 DItemRevisionGUID=
 
