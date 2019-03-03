@@ -51,32 +51,54 @@ int milisek, sec, sec1, sec2, minut, comand = 0;
 int d_1, d_2, d_3, d_4, tohki = 10;
 long tamer_5sec, tamer_10mil;
 int max_udar = 500;
+bool m1, m2, m3, m4, m5 = false;
 void proveryaem_mish()
 {
   if (mih1_sens > max_udar)
   {
-    PowerOn1 = false;
-    mih1_sens = 0;
+    if (m1)
+    {
+      Serial.print("M10\n");
+    }else{
+       mih1_sens = 0;
+    }
+   
   }
   if (mih2_sens > max_udar)
-  {
-    PowerOn2 = false;
-    mih2_sens = 0;
+  {   
+     if (m2)
+    {
+      Serial.print("M20\n");
+    }else{
+       mih2_sens = 0;
+    }
   }
   if (mih3_sens > max_udar)
-  {
-    PowerOn3 = false;
-    mih3_sens = 0;
+  {    
+     if (m3)
+    {
+      Serial.print("M30\n");
+    }else{
+       mih3_sens = 0;
+    }
   }
   if (mih4_sens > max_udar)
   {
-    PowerOn4 = false;
-    mih4_sens = 0;
+     if (m4)
+    {
+      Serial.print("M40\n");
+    }else{
+       mih4_sens = 0;
+    }
   }
   if (mih5_sens > max_udar)
   {
-    PowerOn5 = false;
-    mih5_sens = 0;
+ if (m5)
+    {
+      Serial.print("M50\n");
+    }else{
+       mih5_sens = 0;
+    }
   }
 }
 void zapusk_tamera_10mil()
@@ -101,10 +123,10 @@ void zapusk_tamera_10mil()
         {
           PowerOn = false;
         }
-        Serial.print(d_1);
-        Serial.print(d_2);
-        Serial.print(d_3);
-        Serial.println(d_4);
+        // Serial.print(d_1);
+        //Serial.print(d_2);
+        // Serial.print(d_3);
+        // Serial.println(d_4);
       }
     }
   }
@@ -113,39 +135,82 @@ void zapusk_tamera_10mil()
     milisek = 0;
   }
 }
-
+void on_off_mish_ser()
+{
+ if (m1)
+  {
+    PowerOn1 = true;
+  }else{
+    PowerOn1 = false;
+  }
+  if (m2)
+  {
+    PowerOn2 = true;
+  }else{
+    PowerOn2 = false;
+  }
+  if (m3)
+  {
+    PowerOn3 = true;
+  }else{
+    PowerOn3 = false;
+  }
+  if (m4)
+  {
+    PowerOn4 = true;
+  }else{
+    PowerOn4 = false;
+  }
+  if (m5)
+  {
+    PowerOn5 = true;
+  }else{
+    PowerOn5 = false;
+  }
+}
 void tamin_5sec()
 {
-  if (PowerOn)
+  if (PowerOn && (sec < 5) )
   {
-
+    if (!m1)
+    {
+      Serial.print("M11\n");
+    }
+    if (!m2)
+    {
+      Serial.print("M21\n");
+    }
+    if (!m3)
+    {
+      Serial.print("M31\n");
+    }
+    if (!m4)
+    {
+      Serial.print("M41\n");
+    }
+    if (!m5)
+    {
+      Serial.print("M51\n");
+    }
     if (((millis() - tamer_5sec) > 1000) & (sec < 5))
     {
       tamer_5sec = millis();
       sec++;
-      if (sec == 5)
+      if ((sec == 5) && m1 && m2 && m3 && m4 && m5)
       {
-        PowerOn1 = true;
-        PowerOn2 = true;
-        PowerOn3 = true;
-        PowerOn4 = true;
-        PowerOn5 = true;
+      
       }
 
-      Serial.println(sec);
+       Serial.println(sec);
     }
   }
   else
   {
-    if (sec == 5)
+    if (sec == 10)
     {
-      PowerOn1 = false;
-      PowerOn2 = false;
-      PowerOn3 = false;
-      PowerOn4 = false;
-      PowerOn5 = false;
+ 
     }
-    sec = 0;
+    //sec = 0;
   }
 }
 
@@ -324,10 +389,10 @@ void HTTP_handleRoot(void)
   out += "%   ;</h2><h2>мишень_5: Заряд =  ";
   out += 99; //zaryad_5;
   out += "%   ;</h2> Время : ";
-   out += d_1;
-   out += d_2;
-   out += d_3;
-   out += d_4;
+  out += d_1;
+  out += d_2;
+  out += d_3;
+  out += d_4;
   out += "  ;</h2> </br>";
   out += "\
     </body>\
@@ -338,10 +403,12 @@ void HTTP_handleRoot(void)
   {
     PowerOn = stat;
 
-    if (PowerOn)
+   if (PowerOn)
       Serial.println("Power is ON");
+      
     else
       Serial.println("Power is OFF");
+      sec = 0;
   }
   if (stat1 != PowerOn1)
   {
@@ -461,8 +528,8 @@ void loop()
     riad_serial += inChar;
     if (inChar == '\n')
     {
-      Serial.print("String: ");
-      Serial.println(riad_serial);
+      //Serial.print("String: ");
+      // Serial.println(riad_serial);
       if (riad_serial.indexOf("M1") != -1)
       {
         String Voltage = riad_serial.substring(2);
@@ -493,7 +560,47 @@ void loop()
         Voltage.trim();
         mih5_sens = Voltage.toInt();
       }
-      if (riad_serial.indexOf("Z1") != -1) // проверяем заряд
+      if (riad_serial.indexOf("M11") != -1)
+      {
+        m1 = true;
+      }
+      if (riad_serial.indexOf("M21") != -1)
+      {
+        m2 = true;
+      }
+      if (riad_serial.indexOf("M31") != -1)
+      {
+        m3 = true;
+      }
+      if (riad_serial.indexOf("M41") != -1)
+      {
+        m4 = true;
+      }
+      if (riad_serial.indexOf("M51") != -1)
+      {
+        m5 = true;
+      }
+      if (riad_serial.indexOf("M10") != -1)
+      {
+        m1 = false;
+      }
+      if (riad_serial.indexOf("M20") != -1)
+      {
+        m2 = false;
+      }
+      if (riad_serial.indexOf("M30") != -1)
+      {
+        m3 = false;
+      }
+      if (riad_serial.indexOf("M40") != -1)
+      {
+        m4 = false;
+      }
+      if (riad_serial.indexOf("M50") != -1)
+      {
+        m5 = false;
+      }
+      /* if (riad_serial.indexOf("Z1") != -1) // проверяем заряд
       {
         String Voltage = riad_serial.substring(2);
         Voltage.trim();
@@ -522,17 +629,16 @@ void loop()
         String Voltage = riad_serial.substring(2);
         Voltage.trim();
         zaryad_5 = Voltage.toInt();
-      }
+      }*/
       proveryaem_mish();
+      on_off_mish_ser(); // включаем выключаем мишени на сервере 
       riad_serial = "";
     }
   }
 
-  // if (WiFi.status() != WL_CONNECTED)
-  // { // при разрывах wi-fi подключения
-  //    WiFi.mode(WIFI_AP_STA);
-  //   WiFi_STA();
-  //  }
+ 
+
+  
   if (PowerOn)
   {
     if (PowerOn1 || PowerOn2 || PowerOn3 || PowerOn4 || PowerOn5)
@@ -541,8 +647,26 @@ void loop()
     else if (milisek > 1)
     {
       PowerOn = false;
+      sec = 0;
     }
   }
+
+
+
+if (PowerOn1)
+  {
+    if (!m1)
+    {
+      Serial.print("M11\n");
+    }
+    }else {
+      if (m1){
+        Serial.print("M10\n");
+      }
+    }
+   
+  
+
 
   tamin_5sec();
   zapusk_tamera_10mil();
