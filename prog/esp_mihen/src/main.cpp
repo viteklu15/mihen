@@ -168,6 +168,76 @@ void on_off_mish_ser()
     PowerOn5 = false;
   }
 }
+void on_off_posle_servera()
+{
+  if (PowerOn1)
+  {
+    if (!m1)
+    {
+      Serial.print("M11\n");
+      delay(50);
+    }
+    }else {
+      if (m1){
+        Serial.print("M10\n");
+        delay(50);
+      }
+    }
+
+    if (PowerOn2)
+  {
+    if (!m2)
+    {
+      Serial.print("M21\n");
+      delay(50);
+    }
+    }else {
+      if (m2){
+        Serial.print("M20\n");
+        delay(50);
+      }
+    }
+   if (PowerOn3)
+  {
+    if (!m3)
+    {
+      Serial.print("M31\n");
+      delay(50);
+    }
+    }else {
+      if (m3){
+        Serial.print("M30\n");
+        delay(50);
+      }
+    }
+    if (PowerOn4)
+  {
+    if (!m4)
+    {
+      Serial.print("M41\n");
+      delay(50);
+    }
+    }else {
+      if (m4){
+        Serial.print("M40\n");
+        delay(50);
+      }
+    }
+    if (PowerOn5)
+  {
+    if (!m5)
+    {
+      Serial.print("M51\n");
+      delay(50);
+    }
+    }else {
+      if (m5){
+        Serial.print("M50\n");
+        delay(50);
+      }
+    }
+    
+}
 void tamin_5sec()
 {
   if (PowerOn && (sec < 5) )
@@ -175,22 +245,27 @@ void tamin_5sec()
     if (!m1)
     {
       Serial.print("M11\n");
+      delay(50);
     }
     if (!m2)
     {
       Serial.print("M21\n");
+       delay(50);
     }
     if (!m3)
     {
       Serial.print("M31\n");
+       delay(50);
     }
     if (!m4)
     {
       Serial.print("M41\n");
+       delay(50);
     }
     if (!m5)
     {
       Serial.print("M51\n");
+       delay(50);
     }
     if (((millis() - tamer_5sec) > 1000) & (sec < 5))
     {
@@ -653,21 +728,10 @@ void loop()
 
 
 
-if (PowerOn1)
-  {
-    if (!m1)
-    {
-      Serial.print("M11\n");
-    }
-    }else {
-      if (m1){
-        Serial.print("M10\n");
-      }
-    }
-   
+
   
 
-
+  on_off_posle_servera();
   tamin_5sec();
   zapusk_tamera_10mil();
   server.handleClient();
