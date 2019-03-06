@@ -1,0 +1,436 @@
+Added Component: Designator=P1_DRV1(pin)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P1_DRV2(pin)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P1_DRV3(pin)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P1_DRV4(pin)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P1_DRV5(pin)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P1_DRV6(pin)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P1_DRV7(pin)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P1_DRV8(pin)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P2(HDR2X3H)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P3(HDR2X3H)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=Q1_DRV1(AO-SOT23-3_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Channel Type"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.aosmd.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.aosmd.com/res/data_sheets/AO3400.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.aosmd.com/res/packaging_information/SOT-23.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev.8, 12/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Drain-Source Voltage Limit"; Value = "30 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gate-Source Voltage Limit"; Value = "+/-12 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Junction Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Alpha and Omega"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin SOT23, 3.016 x 2.8 mm Body, 0.95 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOT23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "AO3400"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Storage Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Added Component: Designator=Q1_DRV2(AO-SOT23-3_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Channel Type"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.aosmd.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.aosmd.com/res/data_sheets/AO3400.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.aosmd.com/res/packaging_information/SOT-23.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev.8, 12/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Drain-Source Voltage Limit"; Value = "30 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gate-Source Voltage Limit"; Value = "+/-12 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Junction Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Alpha and Omega"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin SOT23, 3.016 x 2.8 mm Body, 0.95 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOT23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "AO3400"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Storage Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Added Component: Designator=Q1_DRV3(AO-SOT23-3_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Channel Type"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.aosmd.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.aosmd.com/res/data_sheets/AO3400.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.aosmd.com/res/packaging_information/SOT-23.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev.8, 12/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Drain-Source Voltage Limit"; Value = "30 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gate-Source Voltage Limit"; Value = "+/-12 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Junction Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Alpha and Omega"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin SOT23, 3.016 x 2.8 mm Body, 0.95 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOT23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "AO3400"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Storage Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Added Component: Designator=Q1_DRV4(AO-SOT23-3_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Channel Type"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.aosmd.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.aosmd.com/res/data_sheets/AO3400.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.aosmd.com/res/packaging_information/SOT-23.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev.8, 12/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Drain-Source Voltage Limit"; Value = "30 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gate-Source Voltage Limit"; Value = "+/-12 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Junction Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Alpha and Omega"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin SOT23, 3.016 x 2.8 mm Body, 0.95 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOT23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "AO3400"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Storage Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Added Component: Designator=Q1_DRV5(AO-SOT23-3_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Channel Type"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.aosmd.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.aosmd.com/res/data_sheets/AO3400.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.aosmd.com/res/packaging_information/SOT-23.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev.8, 12/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Drain-Source Voltage Limit"; Value = "30 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gate-Source Voltage Limit"; Value = "+/-12 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Junction Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Alpha and Omega"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin SOT23, 3.016 x 2.8 mm Body, 0.95 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOT23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "AO3400"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Storage Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Added Component: Designator=Q1_DRV6(AO-SOT23-3_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Channel Type"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.aosmd.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.aosmd.com/res/data_sheets/AO3400.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.aosmd.com/res/packaging_information/SOT-23.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev.8, 12/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Drain-Source Voltage Limit"; Value = "30 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gate-Source Voltage Limit"; Value = "+/-12 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Junction Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Alpha and Omega"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin SOT23, 3.016 x 2.8 mm Body, 0.95 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOT23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "AO3400"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Storage Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Added Component: Designator=Q1_DRV7(AO-SOT23-3_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Channel Type"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.aosmd.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.aosmd.com/res/data_sheets/AO3400.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.aosmd.com/res/packaging_information/SOT-23.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev.8, 12/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Drain-Source Voltage Limit"; Value = "30 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gate-Source Voltage Limit"; Value = "+/-12 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Junction Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Alpha and Omega"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin SOT23, 3.016 x 2.8 mm Body, 0.95 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOT23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "AO3400"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Storage Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Added Component: Designator=Q1_DRV8(AO-SOT23-3_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Channel Type"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.aosmd.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.aosmd.com/res/data_sheets/AO3400.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.aosmd.com/res/packaging_information/SOT-23.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev.8, 12/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Drain-Source Voltage Limit"; Value = "30 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gate-Source Voltage Limit"; Value = "+/-12 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Junction Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Alpha and Omega"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin SOT23, 3.016 x 2.8 mm Body, 0.95 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOT23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "AO3400"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Storage Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Added Component: Designator=R1_DRV1(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=R1_DRV2(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=R1_DRV3(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=R1_DRV4(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=R1_DRV5(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=R1_DRV6(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=R1_DRV7(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=R1_DRV8(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=R2_DRV1(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=R2_DRV2(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=R2_DRV3(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=R2_DRV4(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=R2_DRV5(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=R2_DRV6(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=R2_DRV7(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=R2_DRV8(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=U1(NXP-SOT109-1_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/74HC595D%2C112-Philips-datasheet-11979826.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 6, 12/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IC Output Type"; Value = "TriState"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Logic Case Style"; Value = "SOIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Logic Type"; Value = "ShiftRegister"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "NXP Semiconductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.nxp.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MSL"; Value = "MSL1-Unlimited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "No. of Elements"; Value = "1Element"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "No. of Pins"; Value = "16Pins"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "125degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-40degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "16-Pin Small Outline Integrated Circuit, Body 9.9 x 3.9 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "SOT109-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package URL"; Value = "http://www.nxp.com/documents/outline_drawing/SOT109-1.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Each"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shift Register Function"; Value = "SerialtoParallel,SerialtoSerial"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage Max"; Value = "6V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage Min"; Value = "2V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SVHC"; Value = "NoSVHC(17-Dec-2014)"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V Pin=P2-5
+Added Pin To Net: NetName=+5V Pin=P3-5
+Added Pin To Net: NetName=+5V Pin=U1-10
+Added Pin To Net: NetName=+5V Pin=U1-16
+Added Net: Name=+5V
+Added Pin To Net: NetName=DS Pin=P2-3
+Added Pin To Net: NetName=DS Pin=U1-14
+Added Net: Name=DS
+Added Pin To Net: NetName=GND Pin=P2-6
+Added Pin To Net: NetName=GND Pin=P3-6
+Added Pin To Net: NetName=GND Pin=Q1_DRV1-2
+Added Pin To Net: NetName=GND Pin=Q1_DRV2-2
+Added Pin To Net: NetName=GND Pin=Q1_DRV3-2
+Added Pin To Net: NetName=GND Pin=Q1_DRV4-2
+Added Pin To Net: NetName=GND Pin=Q1_DRV5-2
+Added Pin To Net: NetName=GND Pin=Q1_DRV6-2
+Added Pin To Net: NetName=GND Pin=Q1_DRV7-2
+Added Pin To Net: NetName=GND Pin=Q1_DRV8-2
+Added Pin To Net: NetName=GND Pin=R2_DRV1-2
+Added Pin To Net: NetName=GND Pin=R2_DRV2-2
+Added Pin To Net: NetName=GND Pin=R2_DRV3-2
+Added Pin To Net: NetName=GND Pin=R2_DRV4-2
+Added Pin To Net: NetName=GND Pin=R2_DRV5-2
+Added Pin To Net: NetName=GND Pin=R2_DRV6-2
+Added Pin To Net: NetName=GND Pin=R2_DRV7-2
+Added Pin To Net: NetName=GND Pin=R2_DRV8-2
+Added Pin To Net: NetName=GND Pin=U1-8
+Added Pin To Net: NetName=GND Pin=U1-13
+Added Net: Name=GND
+Added Pin To Net: NetName=NetP1_DRV1_0 Pin=P1_DRV1-0
+Added Pin To Net: NetName=NetP1_DRV1_0 Pin=Q1_DRV1-3
+Added Net: Name=NetP1_DRV1_0
+Added Pin To Net: NetName=NetP1_DRV2_0 Pin=P1_DRV2-0
+Added Pin To Net: NetName=NetP1_DRV2_0 Pin=Q1_DRV2-3
+Added Net: Name=NetP1_DRV2_0
+Added Pin To Net: NetName=NetP1_DRV3_0 Pin=P1_DRV3-0
+Added Pin To Net: NetName=NetP1_DRV3_0 Pin=Q1_DRV3-3
+Added Net: Name=NetP1_DRV3_0
+Added Pin To Net: NetName=NetP1_DRV4_0 Pin=P1_DRV4-0
+Added Pin To Net: NetName=NetP1_DRV4_0 Pin=Q1_DRV4-3
+Added Net: Name=NetP1_DRV4_0
+Added Pin To Net: NetName=NetP1_DRV5_0 Pin=P1_DRV5-0
+Added Pin To Net: NetName=NetP1_DRV5_0 Pin=Q1_DRV5-3
+Added Net: Name=NetP1_DRV5_0
+Added Pin To Net: NetName=NetP1_DRV6_0 Pin=P1_DRV6-0
+Added Pin To Net: NetName=NetP1_DRV6_0 Pin=Q1_DRV6-3
+Added Net: Name=NetP1_DRV6_0
+Added Pin To Net: NetName=NetP1_DRV7_0 Pin=P1_DRV7-0
+Added Pin To Net: NetName=NetP1_DRV7_0 Pin=Q1_DRV7-3
+Added Net: Name=NetP1_DRV7_0
+Added Pin To Net: NetName=NetP1_DRV8_0 Pin=P1_DRV8-0
+Added Pin To Net: NetName=NetP1_DRV8_0 Pin=Q1_DRV8-3
+Added Net: Name=NetP1_DRV8_0
+Added Pin To Net: NetName=NetQ1_DRV1_1 Pin=Q1_DRV1-1
+Added Pin To Net: NetName=NetQ1_DRV1_1 Pin=R1_DRV1-1
+Added Pin To Net: NetName=NetQ1_DRV1_1 Pin=R2_DRV1-1
+Added Net: Name=NetQ1_DRV1_1
+Added Pin To Net: NetName=NetQ1_DRV2_1 Pin=Q1_DRV2-1
+Added Pin To Net: NetName=NetQ1_DRV2_1 Pin=R1_DRV2-1
+Added Pin To Net: NetName=NetQ1_DRV2_1 Pin=R2_DRV2-1
+Added Net: Name=NetQ1_DRV2_1
+Added Pin To Net: NetName=NetQ1_DRV3_1 Pin=Q1_DRV3-1
+Added Pin To Net: NetName=NetQ1_DRV3_1 Pin=R1_DRV3-1
+Added Pin To Net: NetName=NetQ1_DRV3_1 Pin=R2_DRV3-1
+Added Net: Name=NetQ1_DRV3_1
+Added Pin To Net: NetName=NetQ1_DRV4_1 Pin=Q1_DRV4-1
+Added Pin To Net: NetName=NetQ1_DRV4_1 Pin=R1_DRV4-1
+Added Pin To Net: NetName=NetQ1_DRV4_1 Pin=R2_DRV4-1
+Added Net: Name=NetQ1_DRV4_1
+Added Pin To Net: NetName=NetQ1_DRV5_1 Pin=Q1_DRV5-1
+Added Pin To Net: NetName=NetQ1_DRV5_1 Pin=R1_DRV5-1
+Added Pin To Net: NetName=NetQ1_DRV5_1 Pin=R2_DRV5-1
+Added Net: Name=NetQ1_DRV5_1
+Added Pin To Net: NetName=NetQ1_DRV6_1 Pin=Q1_DRV6-1
+Added Pin To Net: NetName=NetQ1_DRV6_1 Pin=R1_DRV6-1
+Added Pin To Net: NetName=NetQ1_DRV6_1 Pin=R2_DRV6-1
+Added Net: Name=NetQ1_DRV6_1
+Added Pin To Net: NetName=NetQ1_DRV7_1 Pin=Q1_DRV7-1
+Added Pin To Net: NetName=NetQ1_DRV7_1 Pin=R1_DRV7-1
+Added Pin To Net: NetName=NetQ1_DRV7_1 Pin=R2_DRV7-1
+Added Net: Name=NetQ1_DRV7_1
+Added Pin To Net: NetName=NetQ1_DRV8_1 Pin=Q1_DRV8-1
+Added Pin To Net: NetName=NetQ1_DRV8_1 Pin=R1_DRV8-1
+Added Pin To Net: NetName=NetQ1_DRV8_1 Pin=R2_DRV8-1
+Added Net: Name=NetQ1_DRV8_1
+Added Pin To Net: NetName=out1 Pin=R1_DRV1-2
+Added Pin To Net: NetName=out1 Pin=U1-15
+Added Net: Name=out1
+Added Pin To Net: NetName=out2 Pin=R1_DRV2-2
+Added Pin To Net: NetName=out2 Pin=U1-1
+Added Net: Name=out2
+Added Pin To Net: NetName=out3 Pin=R1_DRV3-2
+Added Pin To Net: NetName=out3 Pin=U1-2
+Added Net: Name=out3
+Added Pin To Net: NetName=out4 Pin=R1_DRV4-2
+Added Pin To Net: NetName=out4 Pin=U1-3
+Added Net: Name=out4
+Added Pin To Net: NetName=out5 Pin=R1_DRV5-2
+Added Pin To Net: NetName=out5 Pin=U1-4
+Added Net: Name=out5
+Added Pin To Net: NetName=out6 Pin=R1_DRV6-2
+Added Pin To Net: NetName=out6 Pin=U1-5
+Added Net: Name=out6
+Added Pin To Net: NetName=out7 Pin=R1_DRV7-2
+Added Pin To Net: NetName=out7 Pin=U1-6
+Added Net: Name=out7
+Added Pin To Net: NetName=out8 Pin=R1_DRV8-2
+Added Pin To Net: NetName=out8 Pin=U1-7
+Added Net: Name=out8
+Added Pin To Net: NetName=QS7 Pin=P3-3
+Added Pin To Net: NetName=QS7 Pin=U1-9
+Added Net: Name=QS7
+Added Pin To Net: NetName=SHCP Pin=P2-4
+Added Pin To Net: NetName=SHCP Pin=P3-4
+Added Pin To Net: NetName=SHCP Pin=U1-11
+Added Net: Name=SHCP
+Added Pin To Net: NetName=STCP Pin=P2-2
+Added Pin To Net: NetName=STCP Pin=P3-2
+Added Pin To Net: NetName=STCP Pin=U1-12
+Added Net: Name=STCP
+Added Class: Name=display
+Added Class: Name=DRV1
+Added Class: Name=DRV2
+Added Class: Name=DRV3
+Added Class: Name=DRV4
+Added Class: Name=DRV5
+Added Class: Name=DRV6
+Added Class: Name=DRV7
+Added Class: Name=DRV8
+Added Class: Name=out[0..7]
+Added Class: Name=mosfet
+Added Room: Name=display
+Added Room: Name=DRV1
+Added Room: Name=DRV2
+Added Room: Name=DRV3
+Added Room: Name=DRV4
+Added Room: Name=DRV5
+Added Room: Name=DRV6
+Added Room: Name=DRV7
+Added Room: Name=DRV8

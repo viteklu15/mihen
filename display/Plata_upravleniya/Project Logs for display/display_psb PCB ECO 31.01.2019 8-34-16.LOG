@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=STCP Pin=P2-2
+Removed Pin From Net: NetName=SHCP Pin=P2-4
+Added Pin To Net: NetName=SHCP Pin=P2-2
+Added Pin To Net: NetName=STCP Pin=P2-4
