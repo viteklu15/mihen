@@ -1,0 +1,9 @@
+Added Component: Designator=P1(pin)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=+5V Pin=P1-0
+Change Net Name : Old Net Name=+5V New Net Name=NetP1_0
+Change Net Name : Old Net Name=DS New Net Name=NetQ1_1
+Change Net Name : Old Net Name=NetP1_DRV1_0 New Net Name=NetR1_2
+Change Class Name : Old Net Name=DRV8 New Net Name=plata_esp
+Added Member To Class: ClassName=plata_esp Member=Component P1 pin
+Added Room: Name=plata_esp
