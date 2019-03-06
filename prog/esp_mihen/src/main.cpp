@@ -82,52 +82,53 @@ void proveryaem_mish()
 }
 void on_off_mish_ser()
 {
-  if (tamer_bud > 9){
-  if (m1)
+  if (tamer_bud > 9)
   {
-    PowerOn1 = true;
-  }
-  else
-  {
-    PowerOn1 = false;
-  }
-  if (m2)
-  {
-    PowerOn2 = true;
-  }
-  else
-  {
-    PowerOn2 = false;
-  }
-  if (m3)
-  {
-    PowerOn3 = true;
-  }
-  else
-  {
-    PowerOn3 = false;
-  }
-  if (m4)
-  {
-    PowerOn4 = true;
-  }
-  else
-  {
-    PowerOn4 = false;
-  }
-  if (m5)
-  {
-    PowerOn5 = true;
-  }
-  else
-  {
-    PowerOn5 = false;
-  }
+    if (m1)
+    {
+      PowerOn1 = true;
+    }
+    else
+    {
+      PowerOn1 = false;
+    }
+    if (m2)
+    {
+      PowerOn2 = true;
+    }
+    else
+    {
+      PowerOn2 = false;
+    }
+    if (m3)
+    {
+      PowerOn3 = true;
+    }
+    else
+    {
+      PowerOn3 = false;
+    }
+    if (m4)
+    {
+      PowerOn4 = true;
+    }
+    else
+    {
+      PowerOn4 = false;
+    }
+    if (m5)
+    {
+      PowerOn5 = true;
+    }
+    else
+    {
+      PowerOn5 = false;
+    }
   }
 }
 void zapusk_tamera_10mil()
 {
-  if (sec == 5)
+  if ((sec == 5) && (m1) && (m2) && (m3) && (m4) && (m5))
   {
     if (millis() - tamer_10mil > 100)
     {
@@ -159,94 +160,108 @@ void zapusk_tamera_10mil()
     milisek = 0;
   }
 }
-void deley_50milsec(){
+void deley_50milsec()
+{
   if (((millis() - tamer_50mil) > 100))
   {
     tamer_50mil = millis();
     flag_delay = !flag_delay;
-
   }
-  }
+}
 void on_off_posle_servera()
 {
 
   if (tamer_bud < 10)
   {
     if (PowerOn1)
-    { deley_50milsec();
-      if (!m1 && flag_delay )
+    {
+      deley_50milsec();
+      if (!m1 && flag_delay)
       {
         flag_delay = false;
-        Serial.print("M11\n");        
+        Serial.print("M11\n");
       }
     }
     else
-    {  deley_50milsec();
+    {
+      deley_50milsec();
       if (m1 && flag_delay)
-      { 
+      {
         flag_delay = false;
-        Serial.print("M10\n");       
+        Serial.print("M10\n");
       }
     }
 
     if (PowerOn2)
-    { deley_50milsec();
+    {
+      deley_50milsec();
       if (!m2 && flag_delay)
       {
         flag_delay = false;
-        Serial.print("M21\n");        
+        Serial.print("M21\n");
       }
     }
     else
-    {  deley_50milsec();
+    {
+      deley_50milsec();
       if (m2 && flag_delay)
       {
         flag_delay = false;
-        Serial.print("M20\n");        
+        Serial.print("M20\n");
       }
     }
     if (PowerOn3)
-    { deley_50milsec();
+    {
+      deley_50milsec();
       if (!m3 && flag_delay)
       {
         flag_delay = false;
-        Serial.print("M31\n");        
+        Serial.print("M31\n");
       }
     }
     else
-    {deley_50milsec();
+    {
+      deley_50milsec();
       if (m3 && flag_delay)
-      { flag_delay = false;
-        Serial.print("M30\n");        
+      {
+        flag_delay = false;
+        Serial.print("M30\n");
       }
     }
     if (PowerOn4)
-    {deley_50milsec();
+    {
+      deley_50milsec();
       if (!m4 && flag_delay)
-      { 
+      {
         flag_delay = false;
-        Serial.print("M41\n");        
+        Serial.print("M41\n");
       }
     }
     else
-    {  deley_50milsec();
+    {
+      deley_50milsec();
       if (m4 && flag_delay)
-      { flag_delay = false;
-        Serial.print("M40\n");        
+      {
+        flag_delay = false;
+        Serial.print("M40\n");
       }
     }
     if (PowerOn5)
-    {deley_50milsec();
+    {
+      deley_50milsec();
       if (!m5 && flag_delay)
-      { flag_delay = false;
-        Serial.print("M51\n");        
+      {
+        flag_delay = false;
+        Serial.print("M51\n");
       }
     }
     else
-    {deley_50milsec();
+    {
+      deley_50milsec();
       if (m5 && flag_delay)
-      {flag_delay = false;
-        Serial.print("M50\n");        
+      {
+        flag_delay = false;
+        Serial.print("M50\n");
       }
     }
   }
@@ -279,10 +294,10 @@ void tamin_5sec()
         PowerOn2 = true;
         PowerOn3 = true;
         PowerOn4 = true;
-        PowerOn5 = true;       
+        PowerOn5 = true;
       }
-      Serial.println(sec);  
-    }  
+      Serial.println(sec);
+    }
   }
   else
   {
@@ -733,7 +748,6 @@ void loop()
     else if (milisek > 1)
     {
       PowerOn = false;
-      
     }
   }
 
