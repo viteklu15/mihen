@@ -41,6 +41,10 @@ long evTimeconn;
 
 boolean flagconn = 1; // флаг для однакратного подключения к wi fi
 uint8_t PowerPin = 2;
+int datapin = 13;
+int latchpin = 12;
+int clockpin = 14;
+
 
 bool PowerOn, PowerOn1, PowerOn2, PowerOn3, PowerOn4, PowerOn5 = false;
 String riad_serial = "";
@@ -52,6 +56,62 @@ int d_1, d_2, d_3, d_4, tohki = 10;
 long tamer_5sec, tamer_10mil, tamer_budilnika, tamer_bud, tamer_50mil;
 int max_udar = 500;
 bool m1, m2, m3, m4, m5, flag_delay = false;
+
+void displey(int D1, int D2, int D3, int D4)
+{
+ // uart_1.printf(" tablo %d%d%d%d \r\n", D1, D2, D3, D4);
+  const int number[12][8] = {
+    // a, b, c, d, e, f, g	  
+	// 0, 1, 2, 3, 4, 5, 6	
+	  {0, 1, 1, 1, 1, 1, 0}, // 0
+      {0, 1, 1, 0, 0, 0, 0}, // 1
+      {1, 1, 0, 1, 1, 0, 1}, // 2
+      {1, 1, 1, 1, 0, 0, 1}, // 3
+      {0, 1, 1, 0, 0, 1, 1}, // 4
+      {1, 0, 1, 1, 0, 1, 1}, // 5
+      {1, 0, 1, 1, 1, 1, 1}, // 6
+      {0, 1, 1, 1, 0, 0, 0}, // 7
+      {1, 1, 1, 1, 1, 1, 1}, // 8
+      {1, 1, 1, 1, 0, 1, 1}, // 9
+      {0, 0, 0, 0, 0, 0, 1}, // - 10
+      {0, 0, 0, 0, 0, 0, 0}  //   11 что бы было пусто
+
+  };
+
+  
+  digitalWrite(latchpin, 0);
+
+  for (int i = 0; i <= 7; i++)
+  {
+    digitalWrite(datapin, number[D1][i]);
+    //datapin = number[D1][i];
+    digitalWrite(clockpin, 1);
+    digitalWrite(clockpin, 0);
+  }
+
+  for (int i = 0; i <= 7; i++)
+  {
+    //datapin = number[D2][i];
+    digitalWrite(datapin, number[D2][i]);
+    digitalWrite(clockpin, 1);
+    digitalWrite(clockpin, 0);
+  }
+  for (int i = 0; i <= 7; i++)
+  {
+    //datapin = number[D3][i];
+    digitalWrite(datapin, number[D3][i]);
+    digitalWrite(clockpin, 1);
+    digitalWrite(clockpin, 0);
+  }
+  for (int i = 0; i <= 7; i++)
+  {
+    //datapin = number[D4][i];
+    digitalWrite(datapin, number[D4][i]);
+    digitalWrite(clockpin, 1);
+    digitalWrite(clockpin, 0);
+  }
+  digitalWrite(latchpin, 1);
+}
 void proveryaem_mish()
 {
   if (mih1_sens > max_udar)
@@ -297,6 +357,7 @@ void tamin_5sec()
         PowerOn5 = true;
       }
       Serial.println(sec);
+      displey(11, 10, sec, 10);
     }
   }
   else
@@ -622,6 +683,9 @@ void setup(void)
   http_server();
   // client.set_server(mqtt_server, mqtt_port);
   evTimeconn = millis();
+  pinMode(datapin, OUTPUT);
+  pinMode(latchpin, OUTPUT);
+  pinMode(clockpin, OUTPUT);
 }
 void loop()
 {

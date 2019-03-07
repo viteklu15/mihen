@@ -1,0 +1,27 @@
+Change Component Designator: OldDesignator=IC* NewDesignator=IC*?
+Added Pin To Net: NetName=3.3V Pin=IC*?-8
+Added Net: Name=3.3V
+Added Net: Name=12V
+Added Pin To Net: NetName=cloc Pin=IC*?-5
+Added Net: Name=cloc
+Added Pin To Net: NetName=data Pin=IC*?-7
+Added Net: Name=data
+Added Pin To Net: NetName=GND Pin=IC*?-15
+Added Net: Name=GND
+Added Pin To Net: NetName=latc Pin=IC*?-6
+Added Net: Name=latc
+Added Pin To Net: NetName=NetIC*?_1 Pin=IC*?-1
+Added Net: Name=NetIC*?_1
+Added Pin To Net: NetName=NetIC*?_3 Pin=IC*?-3
+Added Net: Name=NetIC*?_3
+Added Pin To Net: NetName=NetIC*?_16 Pin=IC*?-16
+Added Net: Name=NetIC*?_16
+Added Pin To Net: NetName=NetIC*?_17 Pin=IC*?-17
+Added Net: Name=NetIC*?_17
+Added Pin To Net: NetName=NetIC*?_18 Pin=IC*?-18
+Added Net: Name=NetIC*?_18
+Added Pin To Net: NetName=Rx Pin=IC*?-21
+Added Net: Name=Rx
+Added Pin To Net: NetName=Tx Pin=IC*?-22
+Added Net: Name=Tx
+Added Room: Name=plata_esp
