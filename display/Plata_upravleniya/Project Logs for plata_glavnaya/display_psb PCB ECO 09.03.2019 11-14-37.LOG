@@ -1,0 +1,8 @@
+Added Component: Designator=U?(dcdc_mini_360)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=3.3V Pin=U?-1
+Added Pin To Net: NetName=12V Pin=U?-2
+Added Pin To Net: NetName=GND Pin=U?-3
+Added Pin To Net: NetName=GND Pin=U?-4
+Added Member To Class: ClassName=plata_esp Member=Component U? dcdc_mini 360
+Added Room: Name=plata_esp
