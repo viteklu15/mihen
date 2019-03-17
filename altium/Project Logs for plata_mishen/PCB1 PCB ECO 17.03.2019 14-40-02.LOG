@@ -1,0 +1,118 @@
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=+5V Pin=C3-2
+Removed Pin From Net: NetName=NetQ1_1 Pin=Q1-1
+Removed Pin From Net: NetName=+5V Pin=Q1-2
+Removed Pin From Net: NetName=NetQ1_1 Pin=R5-1
+Removed Pin From Net: NetName=LED_out Pin=R5-2
+Removed Pin From Net: NetName=BIT_2 Pin=U2-6
+Removed Pin From Net: NetName=BIT_1 Pin=U2-7
+Removed Pin From Net: NetName=TX Pin=U2-8
+Removed Pin From Net: NetName=RX Pin=U2-9
+Removed Pin From Net: NetName=BIT_0 Pin=U2-10
+Removed Pin From Net: NetName=LED_out Pin=U2-17
+Removed Pin From Net: NetName=CS Pin=U2-18
+Removed Pin From Net: NetName=GND Pin=U3-1
+Removed Pin From Net: NetName=+3.3V Pin=U3-2
+Removed Pin From Net: NetName=+5V Pin=U3-3
+Removed Pin From Net: NetName=+3.3V Pin=U3-4
+Removed Member From Class: ClassName=mishen Member=*2
+Change Component Comment : Designator=R4 Old Comment=1K New Comment=30K
+Change Component Comment : Designator=R1 Old Comment=1m New Comment=8k
+Change Component Comment : Designator=R2 Old Comment=10K New Comment=100K
+Change Component Comment : Designator=C2 Old Comment=100nF New Comment=2.2uf
+Added Component: Designator=C3(CAPC0603(1608)100_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "CAPC0603(1608)100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P2(pin)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Q1(AO-SOT23-3_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Channel Type"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.aosmd.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.aosmd.com/res/data_sheets/AO3400.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.aosmd.com/res/packaging_information/SOT-23.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev.8, 12/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Drain-Source Voltage Limit"; Value = "30 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gate-Source Voltage Limit"; Value = "+/-12 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Junction Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Alpha and Omega"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin SOT23, 3.016 x 2.8 mm Body, 0.95 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOT23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "AO3400"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Storage Temperature"; Value = "-55 to 150 degC"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=R6(RESC2013X70X40ML20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1503V"; VariantName = "[No Variations]"
+Added Component: Designator=U1(JDY_40)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Advanced Monolithic Systems"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "JDY_40"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/AMS1117-5.0/Advanced%20Monolithic%20Systems/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U3(mic51)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Microchip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "MIC5219-3.3YM5-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-23 Microchip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/MIC5219-3.3YM5-TR/Microchip/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=NetQ1_1 Pin=R5-1
+Added Pin To Net: NetName=LED_out Pin=R5-2
+Added Pin To Net: NetName=NetQ1_1 Pin=R6-1
+Added Pin To Net: NetName=GND Pin=R6-2
+Added Pin To Net: NetName=+3.3V Pin=U1-9
+Added Pin To Net: NetName=TX Pin=U1-10
+Added Pin To Net: NetName=RX Pin=U1-11
+Added Pin To Net: NetName=+3.3V Pin=U1-12
+Added Pin To Net: NetName=CS Pin=U1-13
+Added Pin To Net: NetName=GND Pin=U1-14
+Added Pin To Net: NetName=GND Pin=U2-6
+Added Pin To Net: NetName=CS Pin=U2-9
+Added Pin To Net: NetName=LED_out Pin=U2-10
+Added Pin To Net: NetName=BIT_0 Pin=U2-11
+Added Pin To Net: NetName=BIT_1 Pin=U2-12
+Added Pin To Net: NetName=BIT_2 Pin=U2-13
+Added Pin To Net: NetName=+5V Pin=U3-1
+Added Pin To Net: NetName=GND Pin=U3-2
+Added Pin To Net: NetName=+5V Pin=U3-3
+Added Pin To Net: NetName=+3.3V Pin=U3-5
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_2 Pin=U3-4
+Added Net: Name=NetC3_2
+Added Pin To Net: NetName=NetP2_0 Pin=P2-0
+Added Pin To Net: NetName=NetP2_0 Pin=Q1-3
+Added Net: Name=NetP2_0
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=R4-1
+Added Pin To Net: NetName=NetR2_2 Pin=U2-8
+Added Net: Name=NetR2_2
+Added Member To Class: ClassName=mishen Member=Component P2 (P3) Header 4H
+Added Member To Class: ClassName=mishen Member=Component R6 10K
+Added Member To Class: ClassName=mishen Member=Component U1 JDY_40
+Added Room: Name=mishen
