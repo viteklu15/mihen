@@ -1,0 +1,14 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [plata_glavnaya.PrjPcb]
+   Generated File[display_psb.GTL]
+   Generated File[display_psb.GM2]
+   Generated File[display_psb.RUL]
+   Generated File[display_psb.EXTREP]
+   Generated File[display_psb.REP]
+
+
+Files Generated   : 5
+Documents Printed : 0
+
+Finished Output Generation At 13:02:30 On 13.03.2019
