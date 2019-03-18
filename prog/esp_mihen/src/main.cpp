@@ -222,7 +222,7 @@ void zapusk_tamera_10mil()
 }
 void deley_50milsec()
 {
-  if (((millis() - tamer_50mil) > 100))
+  if (((millis() - tamer_50mil) > 300))
   {
     tamer_50mil = millis();
     flag_delay = !flag_delay;

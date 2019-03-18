@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=GND Pin=P1-1
+Removed Pin From Net: NetName=BIT_0 Pin=P1-2
+Removed Pin From Net: NetName=GND Pin=P1-3
+Removed Pin From Net: NetName=BIT_1 Pin=P1-4
+Removed Pin From Net: NetName=GND Pin=P1-5
+Removed Pin From Net: NetName=BIT_2 Pin=P1-6
+Added Pin To Net: NetName=BIT_0 Pin=P1-1
+Added Pin To Net: NetName=BIT_1 Pin=P1-3
+Added Pin To Net: NetName=BIT_2 Pin=P1-5
+Added Member To Class: ClassName=mishen Member=Component P2 (P3) Header 4H
+Added Room: Name=mishen

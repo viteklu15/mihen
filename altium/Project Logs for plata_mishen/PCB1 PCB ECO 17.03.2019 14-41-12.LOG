@@ -1,0 +1,19 @@
+Added Component: Designator=U1(JDY_40)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Advanced Monolithic Systems"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "JDY_40"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/AMS1117-5.0/Advanced%20Monolithic%20Systems/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3V Pin=U1-9
+Added Pin To Net: NetName=TX Pin=U1-10
+Added Pin To Net: NetName=RX Pin=U1-11
+Added Pin To Net: NetName=+3.3V Pin=U1-12
+Added Pin To Net: NetName=CS Pin=U1-13
+Added Pin To Net: NetName=GND Pin=U1-14
+Added Member To Class: ClassName=mishen Member=Component C3 470pF
+Added Member To Class: ClassName=mishen Member=Component P2 (P3) Header 4H
+Added Member To Class: ClassName=mishen Member=Component Q1 AO3400
+Added Member To Class: ClassName=mishen Member=Component U1 JDY_40
